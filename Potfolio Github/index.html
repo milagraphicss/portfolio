@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mila • Design Gráfico & Front-end</title>
+  <meta name="description" content="Portfólio de Mila — Design Gráfico, UI/UX e Desenvolvimento Front-end. Marcas com personalidade, sites que vendem.">
+
+  
+    <script>
+    const SOCIAL_LINKS = {
+      whatsappNumero: '5551995176019',
+      behance: 'https://behance.net/milagraphicss',
+      instagram: 'https://instagram.com/milagraphicss',
+      linkedin: 'https://linkedin.com/in/seu-usuario',
+      github: 'https://github.com/milagraphicss',
+      email: 'designstudiorisco@g.com'
+    };
+
+    const PROJETOS_VISIVEIS = {
+      projeto1: true,
+      projeto2: true,
+      projeto3: true,
+      projeto4: true,
+      projeto5: false,
+      projeto6: false
+    };
+
+    const PROJETO_SITE_LINKS = {
+      projeto2: 'https://nyayapersonalizados.com.br'
+    };
+  </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a href="#topo" class="logo" aria-label="Voltar ao início">
+        mila<span class="logo-dot">.</span>
+      </a>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+      <label for="menu-toggle" class="menu-toggle-btn" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </label>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#topo">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Redes &amp; Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+        <section class="hero" id="inicio">
+            <svg class="deco star star--lime hero-deco-1" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-explosao"/></svg>
+      <svg class="deco star star--pink hero-deco-2" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+      <svg class="deco star star--offwhite hero-deco-3" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-explosao"/></svg>
+      <svg class="deco star star--lime hero-deco-4" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow-tag">✷ disponível para novos projetos ✷</p>
+          <h1 class="hero-title">
+            Oi, eu sou a <span class="hero-title-name">Mila</span>
+          </h1>
+          <p class="hero-role">Designer Gráfica <span class="amp">&amp;</span> Desenvolvedora Front-end</p>
+          <p class="hero-tagline">Eu transformo marcas tímidas em marcas inesquecíveis — e depois construo o site pra elas mostrarem a cara. Bota a régua e o compasso na gaveta, aqui quem manda é a criatividade. 💥</p>
+
+          <div class="hero-cta-wrap">
+                        <a href="#" data-social="whatsapp" data-wa-text="Oi! Vi seu portfólio e quero conversar sobre um projeto!"
+               class="btn btn-primary"
+               target="_blank" rel="noopener noreferrer">
+              Fale comigo no WhatsApp
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.1 8.1 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4a.5.5 0 0 0 0-.5c-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9a15 15 0 0 0 1.5.5 3.6 3.6 0 0 0 1.6.1c.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3Z"/></svg>
+            </a>
+            <p class="hero-cta-note">↳ resposta rápida, sem enrolação</p>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="polaroid">
+            <img src="assets/foto-perfil.jpg" alt="Foto de perfil de Mila" class="polaroid-img">
+            <p class="polaroid-caption">essa sou eu! 💕</p>
+          </div>
+          <span class="tape tape--top"></span>
+          <svg class="deco star star--navy hero-photo-star" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+        </div>
+      </div>
+
+      <div class="torn-edge torn-edge--to-offwhite" aria-hidden="true"></div>
+    </section>
+
+        <section class="sobre" id="sobre">
+      <div class="section-inner">
+        <p class="section-eyebrow">// sobre mim</p>
+        <h2 class="section-title">Conversinha <span class="highlight-navy">antes do briefing!</span></h2>
+
+        <div class="sobre-grid">
+          <div class="sobre-card">
+            <span class="tape tape--corner"></span>
+            <p>
+              Sou a <strong>Mila</strong>, e a minha missão é simples: pegar a bagunça de ideias
+              que tá na sua cabeça e transformar numa identidade visual que gruda na memória,
+              e num site que carrega essa mesma energia até a última rolagem de tela!
+            </p>
+            <p>
+              Trabalho com branding e social media há 2 anos, e hoje me aventuro no UI/UX, sempre com um pé no design
+              e outro no código. Amo trabalhar com pessoas autênticas: entrego uma marca que <em>funciona</em>,
+              vende e ainda é divertida de olhar. Bora?
+            </p>
+            <p class="sobre-signature">— com carinho (e um pouco de atitude), Mila</p>
+          </div>
+
+          <div class="skills-wrap">
+            <p class="skills-label">minhas ferramentas &amp; superpoderes</p>
+            <ul class="post-it-grid">
+              <li class="post-it post-it--lime">Figma</li>
+              <li class="post-it post-it--pink">HTML &amp; CSS</li>
+              <li class="post-it post-it--offwhite">UI/UX Design</li>
+              <li class="post-it post-it--navy">Branding</li>
+              <li class="post-it post-it--lime">Social Media</li>
+              <li class="post-it post-it--pink">Affinity</li>
+              <li class="post-it post-it--offwhite">Illustrator</li>
+              <li class="post-it post-it--navy">Photoshop</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="torn-edge torn-edge--to-navy" aria-hidden="true"></div>
+    </section>
+
+        <section class="projetos" id="projetos">
+      <svg class="deco star star--lime proj-deco-1" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-explosao"/></svg>
+      <svg class="deco star star--pink proj-deco-2" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+
+      <div class="section-inner">
+        <p class="section-eyebrow section-eyebrow--light">// portfólio</p>
+        <h2 class="section-title section-title--light">Projetos que <span class="highlight-lime">arrasam</span></h2>
+        <p class="section-subtitle">Uma seleção do que já rolou por aqui. Cada um com um problema, uma ideia e um resultado sem enrolação.</p>
+
+                <div class="projetos-grid">
+
+          <article class="projeto-card" data-projeto="projeto1">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-01.jpg" alt="Prévia do projeto Identidade Visual Lado B" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Identidade Visual — Lado B</h3>
+              <p>Branding completo com site para uma loja de moda & decoração para fãs. Dá pra sentir a vibe dos anos 80!</p>
+              <ul class="tag-list">
+                <li class="tag">Branding</li>
+                <li class="tag">Logo</li>
+                <li class="tag">Site</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-social="behance" class="btn-small btn-small--behance" target="_blank" rel="noopener noreferrer">Ver no Behance</a>
+                <a href="#" data-social="github" class="btn-small btn-small--github" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-projeto="projeto2">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-02.jpg" alt="Prévia do projeto site Nyaya Personalizados" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Site — Nyaya Personalizados</h3>
+              <p>Landing page responsiva com loja integrada, pensada pra converter visita em venda sem perder a fofura da marca.</p>
+              <ul class="tag-list">
+                <li class="tag">UI/UX</li>
+                <li class="tag">HTML/CSS</li>
+                <li class="tag">Responsivo</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-projeto-link="projeto2" class="btn-small btn-small--projeto" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-projeto="projeto3">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-03.jpg" alt="Prévia do projeto social media VULCANNA" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Identidade visual - VULCANNA </h3>
+              <p>Branding para uma marca de torefação de café artesanal fictícia</p>
+              <ul class="tag-list">
+                <li class="tag">Social Media</li>
+                <li class="tag">Direção de Arte</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-social="behance" class="btn-small btn-small--behance" target="_blank" rel="noopener noreferrer">Ver no Behance</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-projeto="projeto4">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-04.jpg" alt="Prévia do projeto Quimeria" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Identidade Visual - Quimeria</h3>
+              <p>Branding para marca fictícia de perfumes botânicos & naturais</p>
+              <ul class="tag-list">
+                <li class="tag">Identidade Visual</li>
+                <li class="tag">Design de Posts</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-social="behance" class="btn-small btn-small--behance" target="_blank" rel="noopener noreferrer">Ver no Behance</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-projeto="projeto5">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-05.jpg" alt="Prévia do projeto editorial Liverys" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Liverys - Assetto Corsa</h3>
+              <p>Liverys/plotagem para modelos 3d de carros no Assetto Corsa. Definitivamente não parece algo que eu faria, mas eu faço!</p>
+              <ul class="tag-list">
+                <li class="tag">Ilustração</li>
+                <li class="tag">Direção de Arte</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-social="behance" class="btn-small btn-small--behance" target="_blank" rel="noopener noreferrer">Ver no Behance</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projeto-card" data-projeto="projeto6">
+            <div class="projeto-img-wrap">
+              <img src="assets/projeto-06.jpg" alt="Prévia do projeto site portfólio de fotografia Luz Crua" class="projeto-img">
+            </div>
+            <div class="projeto-body">
+              <h3>Portfólio — Fotografia Luz Crua</h3>
+              <p>Site minimalista (mas com atitude) pra fotógrafa expor o trabalho sem distrair do que importa: a imagem.</p>
+              <ul class="tag-list">
+                <li class="tag">Front-end</li>
+                <li class="tag">Design Web</li>
+              </ul>
+              <div class="projeto-links">
+                                <a href="#" data-social="behance" class="btn-small btn-small--behance" target="_blank" rel="noopener noreferrer">Ver no Behance</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+      <div class="torn-edge torn-edge--to-pink" aria-hidden="true"></div>
+    </section>
+
+        <section class="contato" id="contato">
+      <svg class="deco star star--navy contato-deco-1" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-explosao"/></svg>
+      <svg class="deco star star--offwhite contato-deco-2" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+      <svg class="deco star star--lime contato-deco-3" viewBox="0 0 100 100" aria-hidden="true"><use href="#estrela-simples"/></svg>
+
+      <div class="section-inner">
+        <p class="section-eyebrow">// vamos conversar?</p>
+        <h2 class="section-title">Bora fazer <span class="highlight-navy">barulho</span> junto?</h2>
+        <p class="section-subtitle section-subtitle--dark">Me chama nas redes ou manda um e-mail. Prometo responder mais rápido que café coado.</p>
+
+        <ul class="social-grid">
+                    <li>
+            <a href="#" data-social="behance" class="social-card social-card--navy" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h6.6c3.4 0 4.9 1.6 4.9 3.7 0 1.6-.8 2.6-2.1 3.2 1.8.6 2.9 1.8 2.9 3.8 0 2.6-2 4.3-5.4 4.3H4V6Zm3 6.9h3.1c1.4 0 2.2-.6 2.2-1.7s-.8-1.7-2.2-1.7H7v3.4Zm0 6.4h3.4c1.6 0 2.5-.7 2.5-1.9s-.9-1.9-2.5-1.9H7v3.8ZM14.8 8h5.6v1.5h-5.6V8Zm5.9 7.6h-6.4c.1 1.3 1 2.1 2.3 2.1.9 0 1.6-.4 1.9-1.1h2.1c-.4 1.8-2 3-4 3-2.7 0-4.5-1.9-4.5-4.7 0-2.7 1.9-4.8 4.5-4.8 2.8 0 4.5 2.2 4.1 5.5Zm-6.3-1.6h4.1c-.1-1.2-1-1.9-2-1.9-1.1 0-1.9.7-2.1 1.9Z"/></svg>
+              <span>Behance</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-social="instagram" class="social-card social-card--pink" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c2.7 0 3 0 4.1.1 1.1 0 1.7.2 2.1.4.5.2.9.4 1.3.8.4.4.6.8.8 1.3.2.4.4 1 .4 2.1.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1.1-.2 1.7-.4 2.1-.2.5-.4.9-.8 1.3-.4.4-.8.6-1.3.8-.4.2-1 .4-2.1.4-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1.1 0-1.7-.2-2.1-.4-.5-.2-.9-.4-1.3-.8-.4-.4-.6-.8-.8-1.3-.2-.4-.4-1-.4-2.1-.1-1.1-.1-1.4-.1-4.1s0-3 .1-4.1c0-1.1.2-1.7.4-2.1.2-.5.4-.9.8-1.3.4-.4.8-.6 1.3-.8.4-.2 1-.4 2.1-.4C9 2.2 9.3 2.2 12 2.2Zm0 1.8c-2.7 0-3 0-4 .1-.8 0-1.3.2-1.6.3-.4.1-.7.3-1 .6-.3.3-.5.6-.6 1-.1.3-.3.8-.3 1.6-.1 1-.1 1.3-.1 4s0 3 .1 4c0 .8.2 1.3.3 1.6.1.4.3.7.6 1 .3.3.6.5 1 .6.3.1.8.3 1.6.3 1 .1 1.3.1 4 .1s3 0 4-.1c.8 0 1.3-.2 1.6-.3.4-.1.7-.3 1-.6.3-.3.5-.6.6-1 .1-.3.3-.8.3-1.6.1-1 .1-1.3.1-4s0-3-.1-4c0-.8-.2-1.3-.3-1.6-.1-.4-.3-.7-.6-1-.3-.3-.6-.5-1-.6-.3-.1-.8-.3-1.6-.3-1-.1-1.3-.1-4-.1Zm0 3.5a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm0 1.8a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm4.7-2a1 1 0 1 1 0 2.1 1 1 0 0 1 0-2.1Z"/></svg>
+              <span>Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-social="whatsapp" data-wa-text="Ola, vi seu portfolio!" class="social-card social-card--lime" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2Zm0 18.2a8.1 8.1 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.4 7.4 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.2-.4a.5.5 0 0 0 0-.5c-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9a15 15 0 0 0 1.5.5 3.6 3.6 0 0 0 1.6.1c.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3Z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-social="linkedin" class="social-card social-card--navy" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.9 8.4H3.6V20h3.3V8.4ZM5.3 3.4a1.9 1.9 0 1 0 0 3.8 1.9 1.9 0 0 0 0-3.8ZM20.4 20h-3.3v-6.1c0-1.5 0-3.4-2.1-3.4s-2.4 1.6-2.4 3.3V20H9.3V8.4h3.2v1.6h.1c.4-.8 1.6-1.7 3.2-1.7 3.4 0 4.6 2.3 4.6 5.2V20Z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-social="github" class="social-card social-card--pink" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.3-3.4-1.3-.4-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 .1 1.5 1.1 1.5 1.1.9 1.5 2.3 1.1 2.9.8.1-.6.3-1.1.6-1.3-2.2-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .9-.3 2.9 1a10 10 0 0 1 5.2 0c2-1.3 2.9-1 2.9-1 .6 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.4 4.6-4.6 4.9.3.3.6.9.6 1.8v2.6c0 .3.2.6.7.5A10 10 0 0 0 12 2.2Z"/></svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" data-social="email" class="social-card social-card--lime">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm1.5 2.2V17h15V7.2l-7.1 5.4a1 1 0 0 1-1.2 0L4.5 7.2Zm.9-.2 6.6 5 6.6-5H5.4Z"/></svg>
+              <span>E-mail</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="note-card">
+          <span class="tape tape--corner"></span>
+          <p>P.S: se você chegou até aqui rolando a tela, já sei que curtiu. Bora transformar essa ideia em projeto? ✷</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <p>feito com muito carinho por <strong>Mila</strong> — © <span id="ano-atual">2026</span></p>
+    <a href="#topo" class="voltar-topo" aria-label="Voltar ao topo">↑ topo</a>
+  </footer>
+
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="estrela-explosao" viewBox="0 0 100 100">
+        <path d="M50 2 L58 38 L92 25 L64 48 L98 58 L60 60 L72 96 L50 68 L28 96 L40 60 L2 58 L36 48 L8 25 L42 38 Z"/>
+      </symbol>
+      <symbol id="estrela-simples" viewBox="0 0 100 100">
+        <path d="M50 4 L61 39 L98 39 L68 60 L79 96 L50 74 L21 96 L32 60 L2 39 L39 39 Z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script>
+    document.querySelectorAll('[data-social]').forEach(function (el) {
+      const tipo = el.dataset.social;
+      if (tipo === 'whatsapp') {
+        const texto = el.dataset.waText || '';
+        el.href = 'https://wa.me/' + SOCIAL_LINKS.whatsappNumero + (texto ? '?text=' + encodeURIComponent(texto) : '');
+      } else if (tipo === 'email') {
+        el.href = 'mailto:' + SOCIAL_LINKS.email;
+      } else if (SOCIAL_LINKS[tipo]) {
+        el.href = SOCIAL_LINKS[tipo];
+      }
+    });
+
+    document.querySelectorAll('[data-projeto]').forEach(function (el) {
+      const chave = el.dataset.projeto;
+      if (PROJETOS_VISIVEIS[chave] === false) {
+        el.style.display = 'none';
+      }
+    });
+
+    document.querySelectorAll('[data-projeto-link]').forEach(function (el) {
+      const chave = el.dataset.projetoLink;
+      if (PROJETO_SITE_LINKS[chave]) {
+        el.href = PROJETO_SITE_LINKS[chave];
+      }
+    });
+
+    document.querySelectorAll('.main-nav a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        document.getElementById('menu-toggle').checked = false;
+      });
+    });
+    document.getElementById('ano-atual').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
