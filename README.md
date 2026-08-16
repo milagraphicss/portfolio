@@ -52,5 +52,5 @@ Sinta-se à vontade para me mandar uma mensagem ou acompanhar meu trabalho:
 ---
 
 <p align="center">
-  Desenvolvido por <strong>[Seu Nome]</strong> ✨
+  Desenvolvido por <strong>Mila</strong> ✨
 </p>
