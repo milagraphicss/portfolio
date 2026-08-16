@@ -12,13 +12,13 @@
 
 ---
 
-## 📌 Sobre o Projeto
+## ★ Sobre o Projeto
 
 Este é o meu portfólio pessoal, projetado e desenvolvido para apresentar meus principais projetos, habilidades técnicas e formas de contato. A página foi construída com foco em **design moderno**, **navegação intuitiva** e **responsividade total** para diferentes dispositivos.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## ★ Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -30,7 +30,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 
-## 💻 Funcionalidades e Seções
+## ★ Funcionalidades e Seções
 
 - **Hero Section:** Apresentação inicial com chamada para ação rápida.
 - **Sobre Mim:** Resumo profissional e principais competências.
